@@ -89,3 +89,19 @@ body {
 		font-size: 1.5rem;
 	}
 }
+
+/* FOOTER */
+
+#footer {
+  bottom: 0px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  width: 100%;
+  background-color: #29335c;
+  color: white;
+  margin-top: 2em; 
+}
+

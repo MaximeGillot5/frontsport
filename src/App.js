@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css'
 import Home from './Pages/Home';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
     <div>
       <Navbar />
       <Home />
+      <Footer/>
     </div>
   );
 };
