@@ -183,6 +183,21 @@ body {
   background-color: black;
 }
 
+.text-top-left {
+  text-align: left;
+  left: 35%;
+  top: 10%;
+  margin-top: 80px;
+  margin-left: 40px;
+}
+
+.text-bottom-left {
+  text-align: left;
+  left: 40%;
+  margin-left: -20px;
+  bottom: 70%;
+}
+
 /* ILLUSTRATION */
 
 #illustration {
