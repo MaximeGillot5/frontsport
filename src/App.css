@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Bornspeed";
+  src: url(./fonts/Bornspeed/OTF/Bornspeed-Regular.otf);
+}
+
+* {
+  font-family: "Bornspeed";
+}
+body {
+  background-color: white;
+}
+
+/* NAVBAR */
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  height: 5vh;
+}
