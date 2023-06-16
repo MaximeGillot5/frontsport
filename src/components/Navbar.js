@@ -21,10 +21,7 @@ function Navbar() {
 					<a href="/#">Accueil</a>
 					<a href="/#">évenements</a>
 					<a href="/#">Sports</a>
-					<a href="/#">à propos</a>
-				</div>
-				<div>
-					<a href="/#">Connexion</a>
+					<a href="./Pages/About.js">à propos</a>
 				</div>
 				<button
 					className="nav-btn nav-close-btn"
