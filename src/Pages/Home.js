@@ -3,7 +3,7 @@ import Hero from '../components/Hero';
 import Carousel from '../components/Carousel';
 import CardNumber from '../components/CardNumber';
 import '../styles/home.css';
-import Test from '../components/Test';
+import IconsText from '../components/IconsText';
 
 const Accueil = () => {
   return (
@@ -19,8 +19,8 @@ const Accueil = () => {
       <div id="card-number" className='home-card'>
         <CardNumber />
       </div>
-      <div id='test' className='home-card'>
-        <Test />
+      <div id='IconsText' className='home-card'>
+        <IconsText />
       </div>
     </div>
   );

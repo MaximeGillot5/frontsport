@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Test = () => {
+const IconsText = () => {
     return (
         <div id='card-end'>
             <div className='card'>
@@ -19,4 +19,4 @@ const Test = () => {
     );
 };
 
-export default Test;
+export default IconsText;

@@ -30,32 +30,12 @@ body {
   font-size: large;
 }
 
-/* TEST */
+/* ICONS TEXT */
 
-#test {
+#IconsText {
   grid-area: 5/3/6/6;
   border: 1px solid black;
   background-color: white;
-}
-#first-card {
-  font-size: 50px;
-  color: black;
-  padding-left: 10%;
-}
-
-#second-card {
-  font-size: 50px;
-  color: black;
-}
-
-#third-card {
-  font-size: 50px;
-  color: black;
-  padding-right: 10%;
-}
-
-#text1 {
-  font-size: small;
 }
 
 #card-end {
@@ -65,24 +45,25 @@ body {
   padding: 20px;
 }
 
-.card {
+#card-end .card {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.card i {
+#card-end .card i {
   font-size: 50px;
   color: black;
   margin-bottom: 10px;
 }
 
-.text {
+#card-end .text {
   font-size: small;
   text-align: center;
   max-width: 200px;
   margin: 0 auto;
 }
+
 /* HERO */
 
 #hero {
@@ -239,8 +220,40 @@ body {
     max-width: 100%;
   }
 
-  #test {
+  #IconsText {
     grid-area: 4/1/4/4;
+    max-width: 100%;
+  }
+}
+
+/* RESPONSIVE SMARTPHONE */
+
+@media screen and (max-width: 450px) {
+  #hero {
+    min-width: 100px;
+    max-width: 100%;
+  }
+
+  #illustration {
+    min-width: 100px;
+    max-width: 100%;
+  }
+
+  #card-number {
+    min-width: 100px;
+    max-width: 100%;
+  }
+
+  #sportstext {
+    font-size: 15px;
+  }
+
+  #sportsnumber {
+    font-size: 50px;
+  }
+
+  #home-carousel {
+    min-width: 100px;
     max-width: 100%;
   }
 }
