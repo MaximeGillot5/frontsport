@@ -9,11 +9,11 @@ const IconsText = () => {
             </div>
             <div className='card'>
                 <i className="fa-solid fa-people-arrows"></i>
-                <div className='text'><p>Je poste simplement une activité</p></div>
+                <div className='text'><p>Poste ou cherche simplement une activité</p></div>
             </div>
             <div className='card'>
                 <i className="fa-solid fa-table-tennis-paddle-ball"></i>
-                <div className='text'><p>Je trouve des partenaires de sport !</p></div>
+                <div className='text'><p>Et trouve des partenaires de sport !</p></div>
             </div>
         </div>
     );
