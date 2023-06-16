@@ -116,7 +116,7 @@ body {
 }
 
 #btn-more {
-  background-color: black;
+  background-color: orangered;
   color: white;
   position: absolute;
   left: 50%;
@@ -127,8 +127,8 @@ body {
 }
 
 #btn-more:hover {
-  background-color: grey;
-  color: black;
+  background-color: rgb(255, 255, 255);
+  color: orangered;
 }
 
 /* CAROUSEL */
