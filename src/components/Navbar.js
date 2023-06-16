@@ -13,12 +13,19 @@ function Navbar() {
 
 	return (
 		<header id="navbar">
-			<h3>SPORTNER</h3>
-			<nav id='links'ref={navRef}>
-				<a href="/#">Home</a>
-				<a href="/#">My work</a>
-				<a href="/#">Blog</a>
-				<a href="/#">About me</a>
+			<div>
+				<h3>SPORT<span id="text-orange">NER</span></h3>
+			</div>
+			<nav id='links' ref={navRef}>
+				<div>
+					<a href="/#">Accueil</a>
+					<a href="/#">évenements</a>
+					<a href="/#">Sports</a>
+					<a href="/#">à propos</a>
+				</div>
+				<div>
+					<a href="/#">Connexion</a>
+				</div>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>

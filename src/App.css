@@ -13,94 +13,95 @@ body {
 /* NAVBAR */
 
 :root #navbar {
-	--mainColor: #29335c;
-	--mainColorLight: #5767aa;
-	--secondaryColor: #db2b39;
-	--textColor: #eee;
+  --mainColor: #29335c;
+  --mainColorLight: #5767aa;
+  --secondaryColor: #db2b39;
+  --textColor: #eee;
 }
 
 #navbar {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	height: 80px;
-	padding: 0 2rem;
-	background-color: var(--mainColor);
-	color: var(--textColor);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 2rem;
+  background-color: var(--mainColor);
+  color: var(--textColor);
 }
 
 #navbar #links a {
-	margin: 0 1rem;
-	color: var(--textColor);
-	text-decoration: none;
+  margin: 0 1rem;
+  color: var(--textColor);
+  text-decoration: none;
 }
 
 #navbar .nav-btn {
-	padding: 5px;
-	cursor: pointer;
-	background: transparent;
-	border: none;
-	outline: none;
-	color: var(--textColor);
-	visibility: hidden;
-	opacity: 0;
-	font-size: 1.8rem;
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--textColor);
+  visibility: hidden;
+  opacity: 0;
+  font-size: 1.8rem;
 }
 
 #navbar div,
 #links {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 @media only screen and (max-width: 1024px) {
-	#navbar .nav-btn {
-		visibility: visible;
-		opacity: 1;
-	}
+  #navbar .nav-btn {
+    visibility: visible;
+    opacity: 1;
+  }
 
-	#navbar #links {
-		position: fixed;
-		top: -100vh;
-		left: 0;
-		height: 100%;
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		gap: 1.5rem;
-		background-color: var(--mainColor);
-		transition: 1s;
+  #navbar #links {
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: var(--mainColor);
+    transition: 1s;
     z-index: 999;
-	}
+  }
 
-	#navbar .responsive_nav {
-		transform: translateY(100vh);
-	}
+  #navbar .responsive_nav {
+    transform: translateY(100vh);
+  }
 
-	#navbar #links .nav-close-btn {
-		position: absolute;
-		top: 2rem;
-		right: 2rem;
-	}
+  #navbar #links .nav-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
 
-	#navbar #links a {
-		font-size: 1.5rem;
-	}
+  #navbar #links a {
+    font-size: 1.5rem;
+  }
 }
 
 /* FOOTER */
 
 #footer {
-  bottom: 0px;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 20vh;
-  width: 100%;
   background-color: #29335c;
   color: white;
-  margin-top: 2em; 
+  margin-top: 2em;
+}
+
+#text-orange {
+  color: orangered;
+}
+
+#icons {
+  font-size: 25px;
 }
