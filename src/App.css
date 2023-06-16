@@ -58,21 +58,29 @@ body {
     visibility: visible;
     opacity: 1;
   }
+  body.nav-open {
+    overflow: hidden;
+}
 
-  #navbar #links {
+  #navbar #links{
     position: fixed;
     top: -100vh;
     left: 0;
     height: 100%;
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    display: flex ;
+    flex-direction: column ;
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
     background-color: var(--mainColor);
     transition: 1s;
     z-index: 999;
+  }
+  .links{
+    /* display: flex ; */
+    flex-direction: column ;
+    gap: 1.5rem;
   }
 
   #navbar .responsive_nav {
